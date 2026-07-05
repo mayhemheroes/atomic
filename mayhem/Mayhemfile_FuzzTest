@@ -1,0 +1,5 @@
+project: atomic
+target: FuzzTest
+cmds:
+  - cmd: /mayhem/FuzzTest
+    libfuzzer: true
